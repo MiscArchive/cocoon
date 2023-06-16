@@ -42,7 +42,7 @@
                         <ul class="nav nav-sm flex-column">
                           
                             <li class="nav-item">
-                                <a href="dashboard-crm.html" class="nav-link" data-key="t-crm"> Post approval</a>
+                                <a href="{{route('postapproval')}}" class="nav-link" data-key="t-crm"> Post approval</a>
                             </li>
                             <li class="nav-item">
                                 <a href="{{route('emplist')}}" class="nav-link" data-key="t-ecommerce"> Employer Approval </a>
@@ -54,25 +54,25 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="apps-file-manager.html" class="nav-link menu-link"> <i
+                    <a href="{{route('empdetails')}}" class="nav-link menu-link"> <i
                             class="ph-folder-open"></i> <span data-key="t-file-manager">Employer Details</span>
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="apps-file-manager.html" class="nav-link menu-link"> <i
+                    <a href="{{route('employeedetails')}}" class="nav-link menu-link"> <i
                             class="ph-folder-open"></i> <span data-key="t-file-manager">Employee Details</span>
                     </a>
                 </li>
 @elseif (auth()->user()->role=="employer")
 <li class="nav-item">
-    <a href="apps-file-manager.html" class="nav-link menu-link"> <i
+    <a href="{{route('postjob')}}" class="nav-link menu-link"> <i
             class="ph-folder-open"></i> <span data-key="t-file-manager">Post Jobs</span>
     </a>
 </li>
 
 <li class="nav-item">
-    <a href="apps-file-manager.html" class="nav-link menu-link"> <i
+    <a href="{{route('empapplied')}}" class="nav-link menu-link"> <i
             class="ph-folder-open"></i> <span data-key="t-file-manager">Canidates</span>
     </a>
 </li>

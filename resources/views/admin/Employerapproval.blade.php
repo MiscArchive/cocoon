@@ -1,8 +1,7 @@
 @extends('layouts.app')
                
 @section('content')
-                  
-TML Preview
+              
 <!-- Striped Rows -->
 <table class="table table-striped">
 
