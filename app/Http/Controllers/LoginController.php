@@ -55,7 +55,9 @@ class LoginController extends Controller
         if (Auth::attempt($credentials)) {
             $user = Auth::user();
 
-            if ($user->status == 0) {
+            // if ($user->status == 0) {
+                if (!$user) {
+
                 return back()->withErrors([
                     'is_approved' => 'User not approved.',
                 ]);
