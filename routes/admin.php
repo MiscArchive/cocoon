@@ -15,12 +15,12 @@ Route::post('/signup', [LoginController::class, 'signup'])->name('signup');
 
 // Admin routes
 Route::middleware(['role:admin', 'auth'])->group(function () {
-    Route::view('admin/dashboard-admin', 'admin/dash-admin');
-    Route::get('admin/Employerapproval', [AdminController::class, 'empList'])->name('emplist');
+    Route::get('dashboard', [AdminController::class, 'index']);
+    Route::get('Employerapproval', [AdminController::class, 'empList'])->name('emplist');
     Route::post('empapprove', [AdminController::class, 'empapprove'])->name('empapprove');
-    Route::get('admin/employerdetails', [AdminController::class, 'empdetails'])->name('empdetails');
-    Route::get('admin/employeedetails', [AdminController::class, 'employeedetails'])->name('employeedetails');
-    Route::get('admin/postapproval', [AdminController::class, 'postapproval'])->name('postapproval');
+    Route::get('employerdetails', [AdminController::class, 'empdetails'])->name('empdetails');
+    Route::get('employeedetails', [AdminController::class, 'employeedetails'])->name('employeedetails');
+    Route::get('postapproval', [AdminController::class, 'postapproval'])->name('postapproval');
     Route::post('jobapprove', [AdminController::class, 'jobapprove'])->name('jobapprove');
 });
 
