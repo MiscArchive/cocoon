@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\Testimonials\TestimonialsController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\EmployerController;
@@ -16,30 +17,9 @@ Route::post('/signup', [LoginController::class, 'signup'])->name('signup');
 // Admin routes
 Route::middleware(['role:admin', 'auth'])->group(function () {
     Route::get('dashboard', [AdminController::class, 'index']);
-    Route::get('Employerapproval', [AdminController::class, 'empList'])->name('emplist');
-    Route::post('empapprove', [AdminController::class, 'empapprove'])->name('empapprove');
-    Route::get('employerdetails', [AdminController::class, 'empdetails'])->name('empdetails');
-    Route::get('employeedetails', [AdminController::class, 'employeedetails'])->name('employeedetails');
-    Route::get('postapproval', [AdminController::class, 'postapproval'])->name('postapproval');
-    Route::post('jobapprove', [AdminController::class, 'jobapprove'])->name('jobapprove');
-});
-
-// Employer routes
-Route::middleware(['role:employer', 'auth'])->group(function () {
-    Route::view('employer/dash-employer', 'employer/dash-employer');
-    Route::get('employer/postjob', [EmployerController::class, 'postjob'])->name('postjob');
-    Route::post('jobpost', [EmployerController::class, 'jobpost'])->name('jobpost');
-    Route::get('employer/employeeapplied', [EmployerController::class, 'empapplied'])->name('empapplied');
-});
-
-// Employee routes
-Route::middleware(['role:employee', 'auth'])->group(function () {
-    Route::get('employee/jobcard', [EmployeeController::class, 'jobcard'])->name('jobcard');
-    Route::get('employee/applyjob/{job}', [EmployeeController::class, 'applyjob'])->name('applyjob');
-    Route::post('applyform', [EmployeeController::class, 'applyform'])->name('applyform');
-});
-
-Route::middleware(['auth'])->group(function () {
     Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+
+    Route::resource('testimonials',TestimonialsController::class);
 });
+
 
