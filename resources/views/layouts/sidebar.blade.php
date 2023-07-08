@@ -42,6 +42,11 @@
                             <span data-key="t-file-manager">Testimonials</span>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a href="{{ route('banners.index') }}" class="nav-link menu-link"> <i class="ph-folder-open"></i>
+                            <span data-key="t-file-manager">Banners</span>
+                        </a>
+                    </li>
             </ul>
         </div>
         </li>
