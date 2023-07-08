@@ -24,6 +24,7 @@ class CreateTestimonialRequest extends FormRequest
         return [
             'title' => ['required'],
             'description' => ['required'],
+            'status' => ['nullable'],
             'image' => ['nullable','mimes:png,jpg,jpeg'],
         ];
     }

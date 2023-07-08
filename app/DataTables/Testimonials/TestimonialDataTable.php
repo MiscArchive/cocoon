@@ -30,10 +30,19 @@ class TestimonialDataTable extends DataTable
                 $description = nl2br($query->description);
                 return Str::limit($description, 50, '...');
             })
-            ->addColumn('actions', function ($query) {
-                return '<a href="#" data-bs-toggle="modal" class="btn btn-danger btn-icon btn-sm remove-item-btn"><i class="ph-trash" title="Delete"></i></a>';
+            ->editColumn('status', function ($query) {
+                if ($query->status == 1) {
+                    return '<span class="badge bg-success">Active</span>';
+                }
+                return '<span class="badge bg-warning">In-Active</span>';
             })
-            ->rawColumns(['image', 'actions', 'description']);
+            ->addColumn('actions', function ($query) {
+                $editBtn = '<a href="' . route('testimonials.edit', $query->id) . '" class="btn btn-info btn-icon btn-sm remove-item-btn"><i class="bx bx-edit" title="Edit"></i></a>';
+
+                $deleteBtn = '<button class="btn btn-danger btn-icon btn-sm remove-item-btn" onClick="deleteTestimonial(' . $query->id . ')" style="margin-left:10px;"><i class="ph-trash" title="Delete"></i></button>';
+                return $editBtn . $deleteBtn;
+            })
+            ->rawColumns(['image', 'actions', 'description','status']);
     }
 
     /**
@@ -101,6 +110,12 @@ class TestimonialDataTable extends DataTable
                 'title' => 'Image',
                 'className' => 'text-center',
                 'data' => 'image',
+            ],
+            [
+                'name' => 'status',
+                'title' => 'Status',
+                'className' => 'text-center',
+                'data' => 'status',
             ],
             [
                 'name' => 'actions',

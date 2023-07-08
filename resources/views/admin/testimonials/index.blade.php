@@ -11,12 +11,22 @@
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             @endif
+            <div class="alert alert-success alert-dismissible alert-label-icon rounded-label fade show" role="alert"
+                id="successMessage" style="display: none;">
+                <i class="ri-check-double-line label-icon"></i><strong></strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
             @if ($message = Session::get('error'))
                 <div class="alert alert-danger alert-dismissible alert-label-icon rounded-label fade show" role="alert">
-                    <i class="ri-error-warning-line label-icon"></i><strong>{{ $message }}</strong
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    <i class="ri-error-warning-line label-icon"></i><strong>{{ $message }}</strong <button
+                        type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             @endif
+            <div class="alert alert-danger alert-dismissible alert-label-icon rounded-label fade show" role="alert"
+                id="errorMessage" style="display: none;">
+                <i class="ri-error-warning-line label-icon"></i><strong></strong <button type="button" class="btn-close"
+                    data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
 
             <div class="card">
                 <div class="card-body">
@@ -45,5 +55,40 @@
 
 @section('script')
     {{ $dataTable->scripts() }}
+    <script>
+        function deleteTestimonial(id) {
+            var id = id;
+            if (confirm('Are you sure you want to delete this item?')) {
+                $.ajax({
+                    url: "/admin/testimonials/" + id,
+                    type: 'DELETE',
+                    data: {
+                        _token: '{{ csrf_token() }}',
+                    },
+                    success: function(response) {
+                        var messageContainer;
+                        var message;
+                        if (response.status === true) {
+                            messageContainer = $('#successMessage');
+                            $('#testimonial-table').DataTable().ajax.reload(null, true);
+                        } else {
+                            messageContainer = $('#errorMessage');
+                        }
+                        message = response.message;
+                        messageContainer.show();
+                        messageContainer.find('strong').text(message);
+                        messageContainer.delay(1000).fadeOut('slow');
+                    },
+                    error: function(xhr, status, error) {
+                        $('#errorMessage').show();
+                        $('#errorMessage strong').text(xhr.message);
+                        $('#errorMessage').delay(1000).fadeOut('slow');
+                    }
+                });
+            }
+        }
+    </script>
 @endsection
+
+
 @endsection
