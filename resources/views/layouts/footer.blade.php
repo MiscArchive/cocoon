@@ -74,6 +74,7 @@
     function submitForm() {
         document.getElementById("myForm").submit();
     }
+
 </script>
 @yield('script')
 </body>
