@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\Curriculam\CurriculamController;
 use App\Http\Controllers\Admin\Testimonials\TestimonialsController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\EmployeeController;
@@ -20,6 +21,8 @@ Route::middleware(['role:admin', 'auth'])->group(function () {
     Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
     Route::resource('testimonials',TestimonialsController::class);
+    Route::resource('curriculam',CurriculamController::class);
+
 });
 
 
