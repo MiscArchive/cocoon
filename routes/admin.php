@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\Banners\BannersController;
+use App\Http\Controllers\Admin\Curriculam\CurriculamController;
 use App\Http\Controllers\Admin\Testimonials\TestimonialsController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LoginController;
@@ -18,6 +19,7 @@ Route::middleware(['role:admin', 'auth'])->group(function () {
     Route::get('dashboard', [AdminController::class, 'index']);
     Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
-    Route::resource('testimonials', TestimonialsController::class);
     Route::resource('banners', BannersController::class);
+    Route::resource('testimonials',TestimonialsController::class);
+    Route::resource('curriculam',CurriculamController::class);
 });

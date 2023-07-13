@@ -50,7 +50,7 @@ class TestimonialDataTable extends DataTable
      */
     public function query(Testimonial $model): QueryBuilder
     {
-        return $model->newQuery();
+        return $model->newQuery()->orderBy('id', 'desc');
     }
 
     /**
