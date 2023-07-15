@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Admissions;
+use App\Models\Admission;
 use Illuminate\Http\Request;
 
 class AdmissionController extends Controller
 {
-    public function admissionform(Request $request)
+    public function admissionForm(Request $request)
     {
-        $admission = new Admissions();
+        $admission = new Admission();
         $admission->parent_name = $request->parent_name;
         $admission->child_name = $request->parent_name;
         $admission->child_age = $request->child_age;

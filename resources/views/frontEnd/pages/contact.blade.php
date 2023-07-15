@@ -1,84 +1,85 @@
-
 @extends('frontEnd.layouts.app')
 @section('content')
-   
     <div class="ht__bradcaump__area">
-            <div class="ht__bradcaump__container">
-            	<img src="https://www.cocoonpreschool.org/themes/public/assets/images/bg-png/6.png" alt="bradcaump images">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title">Contact Us</h2>
-                                <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="index.html">Home</a>
-                                  <span class="brd-separetor"><img src="https://www.cocoonpreschool.org/themes/public/assets/images/icons/brad.png" alt="separator images"></span>
-                                  <span class="breadcrumb-item active">Contact Us</span>
-                                </nav>
-                            </div>
+        <div class="ht__bradcaump__container">
+            <img src="https://www.cocoonpreschool.org/themes/public/assets/images/bg-png/6.png" alt="bradcaump images">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bradcaump__inner text-center">
+                            <h2 class="bradcaump-title">Contact Us</h2>
+                            <nav class="bradcaump-inner">
+                                <a class="breadcrumb-item" href="index.html">Home</a>
+                                <span class="brd-separetor"><img
+                                        src="https://www.cocoonpreschool.org/themes/public/assets/images/icons/brad.png"
+                                        alt="separator images"></span>
+                                <span class="breadcrumb-item active">Contact Us</span>
+                            </nav>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-<section class="page__contact bg--white pb--150 pt--180">
-        	<div class="container">
-        		<div class="row">
-        				        			<!-- Start Single Address -->
-        			<div class="col-md-6 col-sm-6 col-12 col-lg-4">
-        				<div class="address location">
-        					<div class="ct__icon">
-        						<i class="fa fa-home"></i>
-        					</div>
-							<div class="address__inner">
-								<h2>Our Location</h2>
-								
-								<ul>
-									<li>Bhadra, Gandhinagar, puliyarakonam junction, <br>  Near Panchayat Rd, Puliyarakonam, Vilappil, Kerala 695573</li>
-								</ul>
-							</div>
-        				</div>
-        			</div>
-        			<!-- End Single Address -->
-        			<!-- Start Single Address -->
-        			<div class="col-md-6 col-sm-6 col-12 col-lg-4 xs-mt-60">
-        				<div class="address phone">
-        					<div class="ct__icon">
-        						<i class="fa fa-phone"></i>
-        					</div>
-							<div class="address__inner">
-								<h2>Phone Number</h2>
-								<ul>
-									<li><a href="tel:+91 81297 76611">+91 81297 76611</a></li>
+    </div>
+    <section class="page__contact bg--white pb--150 pt--180">
+        <div class="container">
+            <div class="row">
+                <!-- Start Single Address -->
+                <div class="col-md-6 col-sm-6 col-12 col-lg-4">
+                    <div class="address location">
+                        <div class="ct__icon">
+                            <i class="fa fa-home"></i>
+                        </div>
+                        <div class="address__inner">
+                            <h2>Our Location</h2>
 
-								</ul>
-                                <br>
-                                <br>
-							</div>
-        				</div>
-        			</div>
-        			<!-- End Single Address -->
-        			<!-- Start Single Address -->
-        			<div class="col-md-6 col-sm-6 col-12 col-lg-4 md-mt-60 sm-mt-60">
-        				<div class="address email">
-        					<div class="ct__icon">
-        						<i class="fa fa-envelope"></i>
-        					</div>
-							<div class="address__inner">
-								<h2>E-mail Address</h2>
-								<ul>
-									<li><a href="mailto:info@cocoonpreschool.org">info@cocoonpreschool.org</a></li>
-								</ul>
-                                <br>
-                                <br>
-							</div>
-        				</div>
-        			</div>
-        			<!-- End Single Address -->
-        		</div>
-        	</div>
-        </section>
-{{-- 
+                            <ul>
+                                <li>Bhadra, Gandhinagar, puliyarakonam junction, <br> Near Panchayat Rd, Puliyarakonam,
+                                    Vilappil, Kerala 695573</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Address -->
+                <!-- Start Single Address -->
+                <div class="col-md-6 col-sm-6 col-12 col-lg-4 xs-mt-60">
+                    <div class="address phone">
+                        <div class="ct__icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="address__inner">
+                            <h2>Phone Number</h2>
+                            <ul>
+                                <li><a href="tel:+91 81297 76611">+91 81297 76611</a></li>
+
+                            </ul>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Address -->
+                <!-- Start Single Address -->
+                <div class="col-md-6 col-sm-6 col-12 col-lg-4 md-mt-60 sm-mt-60">
+                    <div class="address email">
+                        <div class="ct__icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="address__inner">
+                            <h2>E-mail Address</h2>
+                            <ul>
+                                <li><a href="mailto:info@cocoonpreschool.org">info@cocoonpreschool.org</a></li>
+                            </ul>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Address -->
+            </div>
+        </div>
+    </section>
+    {{-- 
         <div class="contact__map">
         	<div class="container-fluid">
         		<div class="row">
@@ -101,45 +102,46 @@
         </div> --}}
 
 
-        <section class="contact__box section-padding--lg bg-image--27">
-        	<div class="container">
-        		<div class="row">
-        			<div class="col-lg-12 col-sm-12 col-md-12">
-						<div class="section__title text-center">
-							<h2 class="title__line">Feel Free To write Us</h2>
-						</div>
-					</div>
-        		</div>
-        		<div class="row mt--80">
-        			<div class="col-lg-12">
-    				<div class="contact-form-wrap">
+    <section class="contact__box section-padding--lg bg-image--27">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-md-12">
+                    <div class="section__title text-center">
+                        <h2 class="title__line">Feel Free To write Us</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt--80">
+                <div class="col-lg-12">
+                    <div class="contact-form-wrap">
 
 
-                           <form accept-charset="utf-8" method="POST" action="{{route('contactform')}}">
-							@csrf
+                        <form  method="POST" action="{{ route('contactForm') }}">
+                            @csrf
 
-					<input class="form-control" type="hidden" name="from" value="contact.htm">
-							  <div class="single-contact-form name">
-                                    <input type="text" name="name" placeholder="Your Name*" required="">
-                                    <input type="email" name="email" placeholder="Mail*" required="">
-                                </div>
-                                <div class="single-contact-form name">
-                               		<input type="text" name="subject" placeholder="Subject*" required="">
-                               		<input type="text" name="telephone" placeholder="Telephone*" required="">
-                                </div>
-                                <div class="single-contact-form message">
-                                    <textarea name="comments" placeholder="Type your message here.." required=""></textarea>
-                                </div>
-                                <div class="contact-btn">
-                                    <button type="submit" class="dcare__btn">submit</button>
-                                </div>
-						<input class="form-control" type="hidden" name="_token" value="NpLrHVSqaRGIQrDcqgq6CCVoRLmzdKhsNCAzTRLW"></form>
-                        </div> 
-                        <div class="form-output">
-                            <p class="form-messege">
-                        </div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
+                            <input class="form-control" type="hidden" name="from" value="contact.htm">
+                            <div class="single-contact-form name">
+                                <input type="text" name="name" placeholder="Your Name*" required="">
+                                <input type="email" name="email" placeholder="Mail*" required="">
+                            </div>
+                            <div class="single-contact-form name">
+                                <input type="text" name="subject" placeholder="Subject*" required="">
+                                <input type="text" name="telephone" placeholder="Telephone*" required="">
+                            </div>
+                            <div class="single-contact-form message">
+                                <textarea name="comments" placeholder="Type your message here.." required=""></textarea>
+                            </div>
+                            <div class="contact-btn">
+                                <button type="submit" class="dcare__btn">submit</button>
+                            </div>
+                          
+                        </form>
+                    </div>
+                    <div class="form-output">
+                        <p class="form-messege">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection

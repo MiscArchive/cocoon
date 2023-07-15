@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Enquires;
+use App\Models\Enquiry;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -27,9 +27,9 @@ class PageController extends Controller
         return view('frontEnd.pages.admission');
     }
 
-    public function contactform(Request $request)
+    public function contactForm(Request $request)
     {
-        $enquiry = new Enquires();
+        $enquiry = new Enquiry();
         $enquiry->name = $request->name;
         $enquiry->email = $request->email;
         $enquiry->subject = $request->subject;
@@ -37,6 +37,6 @@ class PageController extends Controller
         $enquiry->comments = $request->comments;
         $enquiry->save();
 
-        return redirect()->back();
+        return redirect()->route('contactpage');
     }
 }

@@ -8,5 +8,5 @@ Route::get('about', [PageController::class, 'about'])->name('aboutpage');
 Route::get('/', [PageController::class, 'home'])->name('homepage');
 Route::get('contact', [PageController::class, 'contact'])->name('contactpage');
 Route::get('admission', [PageController::class, 'admissionpage'])->name('admissionpage');
-Route::post('admissionform', [AdmissionController::class, 'admissionform'])->name('admissionform');
-Route::post('contactform', [PageController::class, 'contactform'])->name('contactform');
+Route::post('admissionform', [AdmissionController::class, 'admissionForm'])->name('admissionForm');
+Route::post('contactform', [PageController::class, 'contactForm'])->name('contactForm');
