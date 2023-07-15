@@ -42,6 +42,18 @@
                             <span data-key="t-file-manager">Testimonials</span>
                         </a>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="{{ route('testimonials.index') }}" class="nav-link menu-link"> <i class="ph-folder-open"></i>
+                            <span data-key="t-file-manager">Admissions</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="{{ route('testimonials.index') }}" class="nav-link menu-link"> <i class="ph-folder-open"></i>
+                            <span data-key="t-file-manager">Enquiries</span>
+                        </a>
+                    </li>
             </ul>
         </div>
         </li>
