@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\Banners\BannersController;
 use App\Http\Controllers\Admin\Curriculam\CurriculamController;
+use App\Http\Controllers\Admin\Gallery\GalleryController;
 use App\Http\Controllers\Admin\Testimonials\TestimonialsController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LoginController;
@@ -22,4 +23,6 @@ Route::middleware(['role:admin', 'auth'])->group(function () {
     Route::resource('banners', BannersController::class);
     Route::resource('testimonials',TestimonialsController::class);
     Route::resource('curriculam',CurriculamController::class);
+    Route::resource('gallery',GalleryController::class);
+
 });

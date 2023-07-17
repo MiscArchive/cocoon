@@ -44,6 +44,9 @@
 <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <script src="{{ asset('assets/libs/simplebar/simplebar.min.js') }}"></script>
 {{-- <script src="{{ asset('assets/js/plugins.js') }}"></script> --}}
+<!-- dropzone min -->
+<script src="{{ asset('assets/libs/dropzone/dropzone-min.js') }}"></script>
+{{-- <script src="{{ asset('assets/js/pages/form-file-upload.init.js') }}"></script> --}}
 
 <!-- apexcharts -->
 <script src="{{ asset('assets/libs/apexcharts/apexcharts.min.js') }}"></script>

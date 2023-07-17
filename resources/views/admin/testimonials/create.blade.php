@@ -46,6 +46,15 @@
                     <div class="row mt-3">
                         <div class="col-md-12">
                             <div>
+                                <label for="author" class="form-label text-muted">Author</label>
+                                <input type="text" class="form-control" name="author">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <div>
                                 <label for="labelInput" class="form-label text-muted">Image</label>
                                 <input type="file" class="form-control" name="image">
                             </div>
