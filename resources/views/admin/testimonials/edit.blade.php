@@ -47,6 +47,15 @@
                     </div>
 
                     <div class="row mt-3">
+                        <div class="col-md-12">
+                            <div>
+                                <label for="author" class="form-label text-muted">Author</label>
+                                <input type="text" class="form-control" name="author" value="{{ $testimonial->author }}">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
                         <div class="col-md-6">
                             <div>
                                 <label for="labelInput" class="form-label text-muted">Image</label>

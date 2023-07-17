@@ -13,6 +13,7 @@ class CreateTestimonialAction
             $testimonial = new Testimonial();
             $testimonial->title = $collection->get('title');
             $testimonial->description = $collection->get('description');
+            $testimonial->author = $collection->get('author');
             $testimonial->image = $collection->has('image') ? $collection->get('image')->store('testimonials', 'uploads') : NULL;
             if ($testimonial->save()) {
                 return true;

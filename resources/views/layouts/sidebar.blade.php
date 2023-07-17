@@ -52,6 +52,11 @@
                             <span data-key="t-file-manager">Curriculam</span>
                         </a>
                     </li>
+                     <li class="nav-item">
+                        <a href="{{ route('gallery.index') }}" class="nav-link menu-link"> <i class="ph-folder-open"></i>
+                            <span data-key="t-file-manager">Gallery</span>
+                        </a>
+                    </li>
             </ul>
         </div>
         </li>

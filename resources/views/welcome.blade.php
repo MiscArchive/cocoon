@@ -2,12 +2,12 @@
 <html lang="en" data-layout="vertical" data-sidebar="dark" data-sidebar-size="lg" data-preloader="disable" data-theme="default" data-topbar="light" data-bs-theme="light">
 
 
-    
+
 <!-- Mirrored from themesbrand.com/steex/layouts/auth-signin.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 May 2023 07:47:37 GMT -->
 <head>
 
         <meta charset="utf-8">
-        <title>Job Board | Sign In</title>
+        <title>Cocoon | Sign In</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Minimal Admin & Dashboard Template" name="description">
         <meta content="Themesbrand" name="author">
@@ -48,7 +48,7 @@
                                                 <h3 class="text-white">Start your journey with us.</h3>
                                                 <p class="text-white opacity-75 fs-base"></p>
                                             </div>
-                            
+
                                             <div class="auth-effect-main my-5 position-relative rounded-circle d-flex align-items-center justify-content-center mx-auto">
                                                 <div class="effect-circle-1 position-relative mx-auto rounded-circle d-flex align-items-center justify-content-center">
                                                     <div class="effect-circle-2 position-relative mx-auto rounded-circle d-flex align-items-center justify-content-center">
@@ -95,7 +95,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                            
+
                                             <div class="text-center">
                                                 <p class="text-white opacity-75 mb-0 mt-3">
                                                     &copy; <script>document.write(new Date().getFullYear())</script> JobBoard.
@@ -114,28 +114,28 @@
                                             </div>
                                             <div class="p-2 mt-5">
                                                 @if($errors->has('is_approved'))
-                                              
+
                                                 <!-- danger Alert -->
 <div class="alert alert-danger" role="alert">
-    <strong>   {{$errors->first('is_approved')}} </strong> 
+    <strong>   {{$errors->first('is_approved')}} </strong>
 </div>
                                                 @endif
                                                 <form action="{{route('login')}}" method="post">
                                                     @csrf
 
-                            
+
                                                     <div class="mb-3">
                                                         <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
                                                         <div class="position-relative ">
                                                             <input type="text" class="form-control  password-input" name="email" placeholder="Enter email" required>
                                                         </div>
                                                         @error('email')
-                                                        
-                                                            <strong>   {{$message}} </strong> 
-                                                    
+
+                                                            <strong>   {{$message}} </strong>
+
                                                         @enderror
                                                     </div>
-                            
+
                                                     <div class="mb-3">
                                                         {{-- <div class="float-end">
                                                             <a href="auth-pass-reset.html" class="text-muted">Forgot password?</a>
@@ -146,21 +146,21 @@
                                                             <button class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon" type="button" id="password-addon"><i class="ri-eye-fill align-middle"></i></button>
                                                         </div>
                                                         @error('email')
-                                                       
-                                                            <strong>   {{$message}} </strong> 
-                                                       
+
+                                                            <strong>   {{$message}} </strong>
+
                                                         @enderror
                                                     </div>
-                            
+
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id="auth-remember-check">
                                                         <label class="form-check-label" for="auth-remember-check">Remember me</label>
                                                     </div>
-                            
+
                                                     <div class="mt-4">
                                                         <button class="btn btn-primary w-100" type="submit">Sign In</button>
                                                     </div>
-                            
+
                                                     {{-- <div class="mt-4 pt-2 text-center">
                                                         <div class="signin-other-title position-relative">
                                                             <h5 class="fs-sm mb-4 title">Sign In with</h5>
@@ -173,7 +173,7 @@
                                                         </div> --}}
                                                     </div>
                                                 </form>
-                            
+
                                                 <div class="text-center mt-5">
                                                     <p class="mb-0">Don't have an account ? <a href="{{route('register')}}" class="fw-semibold text-secondary text-decoration-underline"> SignUp</a> </p>
                                                 </div>
@@ -192,19 +192,19 @@
             </div>
             <!--end container-->
         </section>
-        
+
         <!-- JAVASCRIPT -->
         <script src="{{asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
         <script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
         <script src="{{asset('assets/js/plugins.js')}}"></script>
-        
 
-        
+
+
         <script src="{{asset('assets/js/pages/password-addon.init.js')}}"></script>
-        
+
         <!--Swiper slider js-->
         <script src="{{asset('assets/libs/swiper/swiper-bundle.min.js')}}"></script>
-        
+
         <!-- swiper.init js -->
         <script src="{{asset('assets/js/pages/swiper.init.js')}}"></script>
 

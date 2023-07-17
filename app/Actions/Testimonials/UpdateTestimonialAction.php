@@ -13,6 +13,7 @@ class UpdateTestimonialAction
         try {
             $testimonial->title = $collection->get('title');
             $testimonial->description = $collection->get('description');
+            $testimonial->author = $collection->get('author');
             $testimonial->status = $collection->get('status');
             if ($collection->has('image')) {
                 $currentImage = $testimonial->image;

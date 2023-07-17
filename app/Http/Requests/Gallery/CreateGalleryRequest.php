@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Requests\Testimonials;
+namespace App\Http\Requests\Gallery;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class CreateTestimonialRequest extends FormRequest
+class CreateGalleryRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -22,11 +22,9 @@ class CreateTestimonialRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'title' => ['nullable'],
-            'description' => ['required'],
-            'author' => ['nullable'],
-            'status' => ['nullable'],
-            'image' => ['nullable','mimes:png,jpg,jpeg'],
+            'type' => ['required'],
+            'image' => ['required_if:type,image'],
+            'video_url' => ['required_if:type,video'],
         ];
     }
 }
