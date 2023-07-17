@@ -17,14 +17,10 @@
                                 <li><a href="#">About</a></li>
                                 <li class="drop"><a href="#">Curriculum</a>
                                     <ul class="dropdown__menu">
-                                        <li><a href="#"><i class="fa fa-futbol-o"
-                                                    aria-hidden="true"></i> Pre-Nursery / Play-Group</a></li>
-                                        <li><a href="#"><i class="fa fa-futbol-o"
-                                                    aria-hidden="true"></i> Nursery / Montessori-1</a></li>
-                                        <li><a href="#"><i class="fa fa-futbol-o"
-                                                    aria-hidden="true"></i> LKG / Montessori-2</a></li>
-                                        <li><a href="#"><i class="fa fa-futbol-o"
-                                                    aria-hidden="true"></i> UKG / Montessori-3</a></li>
+                                        @foreach ($curriculams as $curriculam )
+                                        <li><a href="{{ 'curriculum/'.$curriculam->slug }}"><i class="fa fa-futbol-o"
+                                            aria-hidden="true"></i> {{ $curriculam->title }}</a></li>
+                                        @endforeach
                                     </ul>
                                 </li>
                                 <li><a href="#">Addmissions</a></li>
