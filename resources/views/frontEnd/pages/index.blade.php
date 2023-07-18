@@ -471,7 +471,7 @@
         </div>
     </section>
 
-{{--x --}}
+    {{-- x --}}
 
 
     <section class="junior__gallery__area bg--white section-padding--lg">
@@ -486,147 +486,29 @@
             </div>
             <div class="row galler__wrap mt--40">
 
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="gallery wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                        <div class="gallery__thumb">
-                            <a href="#">
-                                <img src="https://www.cocoonpreschool.org/image/gallery/gallery/1/images/lg_1_1.jpg"
-                                    alt="gallery images">
-                            </a>
-                        </div>
-                        <div class="gallery__hover__inner">
-                            <div class="gallery__hover__action">
-                                <ul class="gallery__zoom">
-                                    <li><a href="https://www.cocoonpreschool.org/image/gallery/gallery/1/images/lg_1_1.jpg"
-                                            data-lightbox="grportimg" data-title="My caption"><i
-                                                class="fa fa-search"></i></a></li>
+                @foreach ($imageGallery as $gallery)
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="gallery wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                            <div class="gallery__thumb">
+                                <a href="#">
+                                    <img src="{{ asset('uploads/'.$gallery->image) }}"
+                                        alt="gallery images">
+                                </a>
+                            </div>
+                            <div class="gallery__hover__inner">
+                                <div class="gallery__hover__action">
+                                    <ul class="gallery__zoom">
+                                        <li><a href="{{ asset('uploads/'.$gallery->image) }}"
+                                                data-lightbox="grportimg" data-title="My caption"><i
+                                                    class="fa fa-search"></i></a></li>
 
-                                </ul>
-                                <h4 class="gallery__title"><a href="#">Cocoon Pre School</a></h4>
+                                    </ul>
+                                    <h4 class="gallery__title"><a href="#">Cocoon Pre School</a></h4>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="gallery wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                        <div class="gallery__thumb">
-                            <a href="#">
-                                <img src="https://www.cocoonpreschool.org/image/gallery/gallery/1/images/lg_5.jpg"
-                                    alt="gallery images">
-                            </a>
-                        </div>
-                        <div class="gallery__hover__inner">
-                            <div class="gallery__hover__action">
-                                <ul class="gallery__zoom">
-                                    <li><a href="https://www.cocoonpreschool.org/image/gallery/gallery/1/images/lg_5.jpg"
-                                            data-lightbox="grportimg" data-title="My caption"><i
-                                                class="fa fa-search"></i></a></li>
-
-                                </ul>
-                                <h4 class="gallery__title"><a href="#">Cocoon Pre School</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="gallery wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                        <div class="gallery__thumb">
-                            <a href="#">
-                                <img src="https://www.cocoonpreschool.org/image/gallery/gallery/1/images/lg_7.jpg"
-                                    alt="gallery images">
-                            </a>
-                        </div>
-                        <div class="gallery__hover__inner">
-                            <div class="gallery__hover__action">
-                                <ul class="gallery__zoom">
-                                    <li><a href="https://www.cocoonpreschool.org/image/gallery/gallery/1/images/lg_7.jpg"
-                                            data-lightbox="grportimg" data-title="My caption"><i
-                                                class="fa fa-search"></i></a></li>
-
-                                </ul>
-                                <h4 class="gallery__title"><a href="#">Cocoon Pre School</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="gallery wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                        <div class="gallery__thumb">
-                            <a href="#">
-                                <img src="https://www.cocoonpreschool.org/image/gallery/gallery/1/images/lg_8.jpg"
-                                    alt="gallery images">
-                            </a>
-                        </div>
-                        <div class="gallery__hover__inner">
-                            <div class="gallery__hover__action">
-                                <ul class="gallery__zoom">
-                                    <li><a href="https://www.cocoonpreschool.org/image/gallery/gallery/1/images/lg_8.jpg"
-                                            data-lightbox="grportimg" data-title="My caption"><i
-                                                class="fa fa-search"></i></a></li>
-
-                                </ul>
-                                <h4 class="gallery__title"><a href="#">Cocoon Pre School</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="gallery wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                        <div class="gallery__thumb">
-                            <a href="#">
-                                <img src="https://www.cocoonpreschool.org/image/gallery/gallery/1/images/lg_11.jpg"
-                                    alt="gallery images">
-                            </a>
-                        </div>
-                        <div class="gallery__hover__inner">
-                            <div class="gallery__hover__action">
-                                <ul class="gallery__zoom">
-                                    <li><a href="https://www.cocoonpreschool.org/image/gallery/gallery/1/images/lg_11.jpg"
-                                            data-lightbox="grportimg" data-title="My caption"><i
-                                                class="fa fa-search"></i></a></li>
-
-                                </ul>
-                                <h4 class="gallery__title"><a href="#">Cocoon Pre School</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="gallery wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                        <div class="gallery__thumb">
-                            <a href="#">
-                                <img src="https://www.cocoonpreschool.org/image/gallery/gallery/1/images/lg_14.jpg"
-                                    alt="gallery images">
-                            </a>
-                        </div>
-                        <div class="gallery__hover__inner">
-                            <div class="gallery__hover__action">
-                                <ul class="gallery__zoom">
-                                    <li><a href="https://www.cocoonpreschool.org/image/gallery/gallery/1/images/lg_14.jpg"
-                                            data-lightbox="grportimg" data-title="My caption"><i
-                                                class="fa fa-search"></i></a></li>
-
-                                </ul>
-                                <h4 class="gallery__title"><a href="#">Cocoon Pre School</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
 
             </div>
         </div>

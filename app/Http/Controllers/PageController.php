@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
+
     public function about()
     {
         return view('frontEnd.pages.about');
@@ -15,7 +16,8 @@ class PageController extends Controller
 
     public function home()
     {
-        return view('frontEnd.pages.index');
+        $imageGallery = Gallery::where('type', 'image')->where('status', 1)->get();
+        return view('frontEnd.pages.index' , compact('imageGallery'));
     }
 
     public function contact()
