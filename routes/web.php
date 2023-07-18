@@ -18,3 +18,6 @@ Route::get('contact', [PageController::class, 'contact'])->name('contactpage');
 Route::get('admission', [PageController::class, 'admissionpage'])->name('admissionpage');
 Route::post('admissionform', [AdmissionController::class, 'admissionForm'])->name('admissionForm');
 Route::post('contactform', [PageController::class, 'contactForm'])->name('contactForm');
+Route::get('image-gallery', [PageController::class, 'imageGallery'])->name('image.gallery');
+Route::get('video-gallery', [PageController::class, 'videoGallery'])->name('video.gallery');
+

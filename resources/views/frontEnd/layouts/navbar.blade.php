@@ -24,8 +24,8 @@
                                     </ul>
                                 </li>
                                 <li><a href="{{route('admissionpage')}}">Addmissions</a></li>
-                                <li><a href="#">Image Gallery</a></li>
-                                <li><a href="#">Video Gallery</a></li>
+                                <li><a href="{{ route('image.gallery') }}">Image Gallery</a></li>
+                                <li><a href="{{ route('video.gallery') }}">Video Gallery</a></li>
                                 <li><a href="{{route('contactpage')}}">Contact Us</a></li>
 
 

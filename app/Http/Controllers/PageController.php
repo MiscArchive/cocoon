@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Enquiry;
+use App\Models\Gallery;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -25,6 +26,18 @@ class PageController extends Controller
     public function admissionpage()
     {
         return view('frontEnd.pages.admission');
+    }
+
+    public function imageGallery()
+    {
+        $imageGallery = Gallery::where('type', 'image')->where('status', 1)->get();
+        return view('frontEnd.pages.gallery.index', compact('imageGallery'));
+    }
+
+    public function videoGallery()
+    {
+        $videoGallery = Gallery::where('type', 'video')->where('status', 1)->get();
+        return view('frontEnd.pages.videoGallery.index', compact('videoGallery'));
     }
 
     public function contactForm(Request $request)
