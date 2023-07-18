@@ -13,8 +13,8 @@
                     <div class="mainmenu__wrap">
                         <nav class="mainmenu__nav">
                             <ul class="mainmenu">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
+                                <li><a href="{{route('homepage')}}">Home</a></li>
+                                <li><a href="{{route('aboutpage')}}">About</a></li>
                                 <li class="drop"><a href="#">Curriculum</a>
                                     <ul class="dropdown__menu">
                                         @foreach ($curriculams as $curriculam )
@@ -23,10 +23,10 @@
                                         @endforeach
                                     </ul>
                                 </li>
-                                <li><a href="#">Addmissions</a></li>
+                                <li><a href="{{route('admissionpage')}}">Addmissions</a></li>
                                 <li><a href="#">Image Gallery</a></li>
                                 <li><a href="#">Video Gallery</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="{{route('contactpage')}}">Contact Us</a></li>
 
 
                             </ul>
