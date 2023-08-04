@@ -49,7 +49,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-sm-12 col-md-12">
-                <div class="section__title text-center">
+                <div class="section__title text-center"><br>
                     <h2 class="title__line">How we work</h2>
                 </div>
             </div>
