@@ -82,9 +82,9 @@ Bhadra, Gandhinagar, puliyarakonam junction, <br>  Near Panchayat Rd <br> Vilapp
                             <div class="footer__social__icon">
                                 <ul class="dacre__social__link--2 d-flex justify-content-start">
                                     <li class="facebook"><a href="https://www.facebook.com/puliyarakkonam"><i class="fa fa-facebook"></i></a></li>
-                                    <!-- <li class="twitter"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="vimeo"><a href="https://vimeo.com/"><i class="fa fa-vimeo"></i></a></li>
-                                    <li class="pinterest"><a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p"></i></a></li> -->
+                                 <li class="Instagram"><a href="https://instagram.com/fun_at_cocoon?igshid=NTc4MTIwNjQ2YQ=="><i class="fa fa-instagram"></i></a></li>
+                                    <li class="whatsapp"><a href="https://instagram.com/fun_at_cocoon?igshid=NTc4MTIwNjQ2YQ=="><i class="fa fa-whatsapp"></i></a></li>
+                                    <li class="website"><a href="https://miscarchive.com/"><i class="fa fa-desktop"></i></a></li> 
                                 </ul>
                             </div>
 
@@ -107,7 +107,7 @@ Bhadra, Gandhinagar, puliyarakonam junction, <br>  Near Panchayat Rd <br> Vilapp
             <div class="row align-items-center copyright__wrapper justify-content-center">
                 <div class="col-lg-12 col-sm-12 col-md-12">
                     <div class="coppy__right__inner text-center">
-                        <p><i class="fa fa-copyright"></i>All Right Reserved.<a href="#"> Cocoon</a></p>
+                        <p><i class="fa fa-copyright"></i>All Right Reserved.<a href="#"> Cocoon</a> Developed by <a href="https://miscarchive.com/">MiscArchive</a></p>
                     </div>
                 </div>
             </div>
