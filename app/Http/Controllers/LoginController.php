@@ -65,11 +65,7 @@ class LoginController extends Controller
             $role = $user->role;
 
             if ($role === 'admin') {
-                return redirect()->intended('admin/dashboard-admin');
-            } elseif ($role === 'employer') {
-                return redirect()->intended('employer/dash-employer');
-            } elseif ($role === 'employee') {
-                return redirect()->intended('employee/jobcard');
+                return redirect()->intended('admin/dashboard');
             }
 
             return redirect()->intended('dashboard');
