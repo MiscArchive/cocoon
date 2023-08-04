@@ -53,7 +53,7 @@
                                                 <div class="effect-circle-1 position-relative mx-auto rounded-circle d-flex align-items-center justify-content-center">
                                                     <div class="effect-circle-2 position-relative mx-auto rounded-circle d-flex align-items-center justify-content-center">
                                                         <div class="effect-circle-3 mx-auto rounded-circle position-relative text-white fs-4xl d-flex align-items-center justify-content-center">
-                                                            Welcome to <span class="text-primary ms-1">Jobboard</span>
+                                                            Welcome to <span class="text-primary ms-1">Admin Dash</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -98,7 +98,7 @@
 
                                             <div class="text-center">
                                                 <p class="text-white opacity-75 mb-0 mt-3">
-                                                    &copy; <script>document.write(new Date().getFullYear())</script> JobBoard.
+                                                    &copy; <script>document.write(new Date().getFullYear())</script> MiscArchive.
                                                 </p>
                                             </div>
                                         </div>
@@ -182,7 +182,7 @@
                                                 </form>
 
                                                 <div class="text-center mt-5">
-                                                    <p class="mb-0">Don't have an account ? <a href="auth-signup.html" class="fw-semibold text-secondary text-decoration-underline"> SignUp</a> </p>
+                                                    <p class="mb-0">Don't have an account ? <a href="" class="fw-semibold text-secondary text-decoration-underline"> SignUp</a> </p>
                                                 </div>
                                             </div>
                                         </div><!-- end card body -->

@@ -107,7 +107,7 @@ Bhadra, Gandhinagar, puliyarakonam junction, <br>  Near Panchayat Rd <br> Vilapp
             <div class="row align-items-center copyright__wrapper justify-content-center">
                 <div class="col-lg-12 col-sm-12 col-md-12">
                     <div class="coppy__right__inner text-center">
-                        <p><i class="fa fa-copyright"></i>All Right Reserved.<a href="#"> Cocoon</a></p>
+                        <p><i class="fa fa-copyright"></i>All Right Reserved.<a href="#"> Cocoon</a> Developed by <a href="https://miscarchive.com/">MiscArchive</a></p>
                     </div>
                 </div>
             </div>
