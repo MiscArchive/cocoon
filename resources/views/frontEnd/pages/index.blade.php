@@ -71,7 +71,7 @@
                                             <div class="slide__inner">
                                                 <h6>Create New Things</h6>
                                                 <h1>Cocoon Values</h1>
-                                                <p>Communication, Love, Adventure and Nurturing of fearless explorers</p>
+                                                <p>Admission Started</p>
 
                                             </div>
                                         </div>
