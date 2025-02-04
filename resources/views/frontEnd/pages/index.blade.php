@@ -215,8 +215,7 @@
                 </div>
                 <div class="col-md-12 col-lg-6 col-sm-12 md-mt-40 sm-mt-40">
                     <div class="jnr__Welcome__thumb">
-                        <img src="https://www.cocoonpreschool.org/themes/public/assets/images/wel-come/1.png"
-                            alt="images">
+                        <img src="{{ asset('frontEnd/assets/images/bg/19.jpg') }}" alt="bradcaump images">
                         <a class="play__btn" href="https://www.youtube.com/watch?v=MCJEkZtqlBk"><i
                                 class="fa fa-play"></i></a>
                     </div>
@@ -232,8 +231,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="service border__color border__color--5 bg__cat--4">
                         <div class="service__icon">
-                            <img src="https://www.cocoonpreschool.org/themes/public/assets/images/service/icon/1.png"
-                                alt="icon images">
+                            <img src="{{ asset('frontEnd/assets/images/service/icon/1.png') }}" alt="bradcaump images">
+                             
                         </div>
                         <div class="service__details">
                             <h6 class="min62"><a href="single-service#">Pre-Nursery / Play-Group</a></h6>
@@ -250,8 +249,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 xs-mt-60">
                     <div class="service border__color border__color--6 bg__cat--5">
                         <div class="service__icon">
-                            <img src="https://www.cocoonpreschool.org/themes/public/assets/images/service/icon/2.png"
-                                alt="icon images">
+                            <img src="{{ asset('frontEnd/assets/images/service/icon/2.png') }}" alt="bradcaump images">
                         </div>
                         <div class="service__details">
                             <h6 class="min62"><a href="single-service#">Nursery / Montessori-1</a></h6>
@@ -267,8 +265,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
                     <div class="service border__color border__color--7 bg__cat--6">
                         <div class="service__icon">
-                            <img src="https://www.cocoonpreschool.org/themes/public/assets/images/service/icon/3.png"
-                                alt="icon images">
+                            <img src="{{ asset('frontEnd/assets/images/service/icon/3.png') }}" alt="bradcaump images">
+                        
                         </div>
                         <div class="service__details">
                             <h6 class="min62"><a href="single-service#">LKG / Montessori-2</a></h6>
@@ -284,8 +282,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
                     <div class="service border__color border__color--8 bg__cat--7">
                         <div class="service__icon">
-                            <img src="https://www.cocoonpreschool.org/themes/public/assets/images/service/icon/4.png"
-                                alt="icon images">
+                            <img src="{{ asset('frontEnd/assets/images/service/icon/4.png') }}" alt="bradcaump images">
+       
                         </div>
                         <div class="service__details">
                             <h6 class="min62"><a href="single-service#">UKG / Montessori-3</a></h6>

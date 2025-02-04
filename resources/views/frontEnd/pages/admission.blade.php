@@ -2,7 +2,7 @@
 @section('content')
     <div class="ht__bradcaump__area">
         <div class="ht__bradcaump__container">
-            <img src="https://www.cocoonpreschool.org/themes/public/assets/images/bg-png/6.png" alt="bradcaump images">
+            <img src="{{ asset('frontEnd/assets/images/curriculum/banner-curriculum.png') }}" alt="bradcaump images">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -10,9 +10,6 @@
                             <h2 class="bradcaump-title">Addmissions</h2>
                             <nav class="bradcaump-inner">
                                 <a class="breadcrumb-item" href="index.html">Home</a>
-                                <span class="brd-separetor"><img
-                                        src="https://www.cocoonpreschool.org/themes/public/assets/images/icons/brad.png"
-                                        alt="separator images"></span>
                                 <span class="breadcrumb-item active">Addmissions</span>
                             </nav>
                         </div>
