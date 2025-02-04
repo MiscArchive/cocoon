@@ -31,11 +31,11 @@
                             <ul>
 
 
-                                 <li style="margin-top:10px;"><a style="color:#fff;" href="{{ URL::to('/') }}"><i class="fa fa-angle-right"></i> Home</a></li>
-                                 <li style="margin-top:10px;"><a style="color:#fff;" href="{{ URL::to('/about-us.html') }}"><i class="fa fa-angle-right"></i> About Us</a></li>
-                                <li style="margin-top:10px;"><a style="color:#fff;" href="{{ URL::to('video_gallery') }}"><i class="fa fa-angle-right"></i> Image Gallery</a></li>
-                                <li style="margin-top:10px;"><a style="color:#fff;" href="{{ URL::to('image_gallery') }}"><i class="fa fa-angle-right"></i> Video Gallery</a></li>
-                                <li style="margin-top:10px;"><a style="color:#fff;" href="{{ URL::to('contact.htm') }}"><i class="fa fa-angle-right"></i> Contact Us</a></li>
+                                 <li style="margin-top:10px;"><a style="color:#fff;" href="{{route('homepage')}}"><i class="fa fa-angle-right"></i> Home</a></li>
+                                 <li style="margin-top:10px;"><a style="color:#fff;" href="{{route('aboutpage')}}"><i class="fa fa-angle-right"></i> About Us</a></li>
+                                <li style="margin-top:10px;"><a style="color:#fff;" href="{{ route('image.gallery') }}"><i class="fa fa-angle-right"></i> Image Gallery</a></li>
+                                <li style="margin-top:10px;"><a style="color:#fff;" href="{{ route('video.gallery') }}"><i class="fa fa-angle-right"></i> Video Gallery</a></li>
+                                <li style="margin-top:10px;"><a style="color:#fff;" href="{{route('contactpage')}}"><i class="fa fa-angle-right"></i> Contact Us</a></li>
 
 
                             </ul>
@@ -84,7 +84,7 @@ Bhadra, Gandhinagar, puliyarakonam junction, <br>  Near Panchayat Rd <br> Vilapp
                                     <li class="facebook"><a href="https://www.facebook.com/puliyarakkonam"><i class="fa fa-facebook"></i></a></li>
                                  <li class="Instagram"><a href="https://instagram.com/fun_at_cocoon?igshid=NTc4MTIwNjQ2YQ=="><i class="fa fa-instagram"></i></a></li>
                                     <li class="whatsapp"><a href="https://instagram.com/fun_at_cocoon?igshid=NTc4MTIwNjQ2YQ=="><i class="fa fa-whatsapp"></i></a></li>
-                                    <li class="website"><a href="https://miscarchive.com/"><i class="fa fa-desktop"></i></a></li> 
+                                    <li class="website"><a href="#"><i class="fa fa-desktop"></i></a></li> 
                                 </ul>
                             </div>
 

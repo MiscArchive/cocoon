@@ -4,7 +4,7 @@
             <div class="row d-none d-lg-flex">
                 <div class="col-sm-4 col-md-6 col-lg-2 order-1 order-lg-1">
                     <div class="logo">
-                        <a href="#">
+                        <a href="{{route('homepage')}}">
                             <img src="{{ asset('frontEnd/assets/images/logo/2.png') }}" alt="logo-images">
                         </a>
                     </div>

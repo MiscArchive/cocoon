@@ -71,7 +71,11 @@
                                             <div class="slide__inner">
                                                 <h6>Create New Things</h6>
                                                 <h1>Cocoon Values</h1>
+<<<<<<< HEAD
                                                 <p>Admission Started</p>
+=======
+                                                <p>Communication, Love, Adventure and nurturing of fearless explorers</p>
+>>>>>>> 073fe09 (Updated styles and Blade templates)
 
                                             </div>
                                         </div>

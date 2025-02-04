@@ -18,13 +18,13 @@
             </div>
             @if ($message = Session::get('error'))
                 <div class="alert alert-danger alert-dismissible alert-label-icon rounded-label fade show" role="alert">
-                    <i class="ri-error-warning-line label-icon"></i><strong>{{ $message }}</strong <button
+                    <i class="ri-error-warning-line label-icon"></i><strong>{{ $message }}</strong> <button
                         type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             @endif
             <div class="alert alert-danger alert-dismissible alert-label-icon rounded-label fade show" role="alert"
                 id="errorMessage" style="display: none;">
-                <i class="ri-error-warning-line label-icon"></i><strong></strong <button type="button" class="btn-close"
+                <i class="ri-error-warning-line label-icon"></i><strong></strong> <button type="button" class="btn-close"
                     data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
 
