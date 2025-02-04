@@ -1,192 +1,60 @@
 @extends('frontEnd.layouts.app')
 
 @section('content')
-    <div class="slide__carosel owl-carousel owl-theme owl-loaded owl-drag">
-
-
-
-
-
-        <div class="owl-stage-outer">
-            <div class="owl-stage"
-                style="transform: translate3d(-3376px, 0px, 0px); transition: all 0s ease 0s; width: 11816px;">
-                <div class="owl-item cloned" style="width: 1688px;">
-                    <div
-                        class="slider__area slider--two bg-pngimage--4 d-flex slider__fixed--height justify-content-end align-items-center">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
-                                    <div class="slider__activation">
-                                        <!-- Start Single Slide -->
-                                        <div class="slide">
-
-                                            <div class="slide__inner">
-                                                <h6>Create New Things</h6>
-                                                <h1>Cocoon Promises</h1>
-                                                <p>Innovation, Cohesive Development</p>
-
-                                            </div>
-                                        </div>
-                                        <!-- End Single Slide -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-item cloned" style="width: 1688px;">
-                    <div
-                        class="slider__area slider--two bg-pngimage--4 d-flex slider__fixed--height justify-content-end align-items-center">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
-                                    <div class="slider__activation">
-                                        <!-- Start Single Slide -->
-                                        <div class="slide">
-
-                                            <div class="slide__inner">
-                                                <h6>Create New Things</h6>
-                                                <h1>Cocoon Mission</h1>
-                                                <p>Transforming Pre-school to Fun school</p>
-
-                                            </div>
-                                        </div>
-                                        <!-- End Single Slide -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-item active" style="width: 1688px;">
-                    <div
-                        class="slider__area slider--two bg-pngimage--4 d-flex slider__fixed--height justify-content-end align-items-center">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
-                                    <div class="slider__activation">
-                                        <!-- Start Single Slide -->
-                                        <div class="slide">
-
-                                            <div class="slide__inner">
-                                                <h6>Create New Things</h6>
-                                                <h1>Cocoon Values</h1>
-                                                <p>Communication, Love, Adventure and nurturing of fearless explorers</p>
-
-                                            </div>
-                                        </div>
-                                        <!-- End Single Slide -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-item" style="width: 1688px;">
-                    <div
-                        class="slider__area slider--two bg-pngimage--4 d-flex slider__fixed--height justify-content-end align-items-center">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
-                                    <div class="slider__activation">
-                                        <!-- Start Single Slide -->
-                                        <div class="slide">
-
-                                            <div class="slide__inner">
-                                                <h6>Create New Things</h6>
-                                                <h1>Cocoon Promises</h1>
-                                                <p>Innovation, Cohesive Development</p>
-
-                                            </div>
-                                        </div>
-                                        <!-- End Single Slide -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-item" style="width: 1688px;">
-                    <div
-                        class="slider__area slider--two bg-pngimage--4 d-flex slider__fixed--height justify-content-end align-items-center">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
-                                    <div class="slider__activation">
-                                        <!-- Start Single Slide -->
-                                        <div class="slide">
-
-                                            <div class="slide__inner">
-                                                <h6>Create New Things</h6>
-                                                <h1>Cocoon Mission</h1>
-                                                <p>Transforming Pre-school to Fun school</p>
-
-                                            </div>
-                                        </div>
-                                        <!-- End Single Slide -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-item cloned" style="width: 1688px;">
-                    <div
-                        class="slider__area slider--two bg-pngimage--4 d-flex slider__fixed--height justify-content-end align-items-center">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
-                                    <div class="slider__activation">
-                                        <!-- Start Single Slide -->
-                                        <div class="slide">
-
-                                            <div class="slide__inner">
-                                                <h6>Create New Things</h6>
-                                                <h1>Cocoon Values</h1>
-                                                <p>Communication, Love, Adventure and Nurturing of fearless explorers</p>
-
-                                            </div>
-                                        </div>
-                                        <!-- End Single Slide -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-item cloned" style="width: 1688px;">
-                    <div
-                        class="slider__area slider--two bg-pngimage--4 d-flex slider__fixed--height justify-content-end align-items-center">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
-                                    <div class="slider__activation">
-                                        <!-- Start Single Slide -->
-                                        <div class="slide">
-
-                                            <div class="slide__inner">
-                                                <h6>Create New Things</h6>
-                                                <h1>Cocoon Promises</h1>
-                                                <p>Innovation, Cohesive Development</p>
-
-                                            </div>
-                                        </div>
-                                        <!-- End Single Slide -->
-                                    </div>
-                                </div>
+<div class="slide__carosel owl-carousel owl-theme">
+    <div class="slider__area slider--two bg-pngimage--4 d-flex slider__fixed--height justify-content-end align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
+                    <div class="slider__activation">
+                        <div class="slide">
+                            <div class="slide__inner">
+                                <h6>Create New Things</h6>
+                                <h1>Cocoon Promises</h1>
+                                <p>Innovation, Cohesive Development</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="owl-nav">
-            <div class="owl-prev"><i class="fa fa-angle-left"></i></div>
-            <div class="owl-next"><i class="fa fa-angle-right"></i></div>
-        </div>
-        <div class="owl-dots disabled"></div>
     </div>
-
+    <div class="slider__area slider--two bg-pngimage--5 d-flex slider__fixed--height justify-content-end align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
+                    <div class="slider__activation">
+                        <div class="slide">
+                            <div class="slide__inner">
+                                <h6>Create New Things</h6>
+                                <h1>Cocoon Values</h1>
+                                <p>Communication, Love, Adventure and nurturing of fearless explorers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider__area slider--two bg-pngimage--1 d-flex slider__fixed--height justify-content-end align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
+                    <div class="slider__activation">
+                        <div class="slide">
+                            <div class="slide__inner">
+                                <h6>Create New Things</h6>
+                                <h1>Cocoon Mission</h1>
+                                <p>Transforming Pre-school to Fun school</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- You can duplicate the above block to create multiple slides -->
+</div>
 
     <section class="junior__welcome__area section-padding--md bg-pngimage--2">
         <div class="container">
@@ -235,11 +103,11 @@
                              
                         </div>
                         <div class="service__details">
-                            <h6 class="min62"><a href="single-service#">Pre-Nursery / Play-Group</a></h6>
+                            <h6 class="min62"><a href="#">Pre-Nursery / Play-Group</a></h6>
 
                             <div class="service__btn">
                                 <a class="dcare__btn btn__f1f1f1 hover__444  min__height-btn"
-                                    href="https://www.cocoonpreschool.org/curriculum/pre-nursery">Read More</a>
+                                    href="#">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -252,10 +120,10 @@
                             <img src="{{ asset('frontEnd/assets/images/service/icon/2.png') }}" alt="bradcaump images">
                         </div>
                         <div class="service__details">
-                            <h6 class="min62"><a href="single-service#">Nursery / Montessori-1</a></h6>
+                            <h6 class="min62"><a href="#">Nursery / Montessori-1</a></h6>
                             <div class="service__btn">
                                 <a class="dcare__btn btn__f1f1f1 hover__444 min__height-btn"
-                                    href="https://www.cocoonpreschool.org/curriculum/nursery">Read More</a>
+                                    href="#">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -269,10 +137,10 @@
                         
                         </div>
                         <div class="service__details">
-                            <h6 class="min62"><a href="single-service#">LKG / Montessori-2</a></h6>
+                            <h6 class="min62"><a href="#">LKG / Montessori-2</a></h6>
                             <div class="service__btn">
                                 <a class="dcare__btn btn__f1f1f1 hover__444 min__height-btn"
-                                    href="https://www.cocoonpreschool.org/curriculum/lkg">Read More</a>
+                                    href="#">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -286,10 +154,10 @@
        
                         </div>
                         <div class="service__details">
-                            <h6 class="min62"><a href="single-service#">UKG / Montessori-3</a></h6>
+                            <h6 class="min62"><a href="#">UKG / Montessori-3</a></h6>
                             <div class="service__btn">
                                 <a class="dcare__btn btn__f1f1f1 hover__444 min__height-btn"
-                                    href="https://www.cocoonpreschool.org/curriculum/ukg">Read More</a>
+                                    href="#">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -311,7 +179,7 @@
 
                         </div>
                         <div class="callto__action__btn">
-                            <a class="dcare__btn btn__white" href="https://www.cocoonpreschool.org/contact.htm">Contact
+                            <a class="dcare__btn btn__white" href="{{route('contactpage')}}">Contact
                                 Now</a>
                         </div>
                     </div>
@@ -326,143 +194,46 @@
             <div class="row">
                 <div class="offset-lg-2 col-lg-8 col-md-12 col-sm-12">
                     <div class="testimonial__container">
-                        <div class="tes__activation--1 owl-carousel owl-theme owl-loaded owl-drag">
 
-
-
-
-
-                            <div class="owl-stage-outer">
-                                <div class="owl-stage"
-                                    style="transform: translate3d(-1140px, 0px, 0px); transition: all 0s ease 0s; width: 2850px;">
-                                    <div class="owl-item cloned" style="width: 570px;">
-                                        <div class="testimonial__bg">
-                                            <!-- Start Single Testimonial -->
-                                            <div class="testimonial text-center">
-                                                <div class="testimonial__inner">
-                                                    <div class="test__icon">
-                                                        <img src="https://www.cocoonpreschool.org/themes/public/assets/images/testimonial/icon/1.png"
-                                                            alt="icon images">
-                                                    </div>
-                                                    <div class="client__details">
-                                                        <p>It was our first time enrolling our son in preschool so we were
-                                                            nervous at first but the teachers and the rest of the staff at
-                                                            SpringStone are so incredible that they soon made us feel
-                                                            comfortable.</p>
-                                                        <div class="client__info">
-                                                            <h6>James K P</h6>
-                                                            <span>Doctor</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Testimonial -->
+                        <div class="tes__activation--1 owl-carousel owl-theme">
+                            <!-- Single Testimonial Slide -->
+                            <div class="testimonial__bg">
+                                <div class="testimonial text-center">
+                                    <div class="testimonial__inner">
+                                        <div class="test__icon">
+                                            <img src="{{ asset('frontEnd/assets/images/testimonial/icon/1.png') }}" alt="icon images">
                                         </div>
-                                    </div>
-                                    <div class="owl-item cloned" style="width: 570px;">
-                                        <div class="testimonial__bg">
-                                            <!-- Start Single Testimonial -->
-                                            <div class="testimonial text-center">
-                                                <div class="testimonial__inner">
-                                                    <div class="test__icon">
-                                                        <img src="https://www.cocoonpreschool.org/themes/public/assets/images/testimonial/icon/1.png"
-                                                            alt="icon images">
-                                                    </div>
-                                                    <div class="client__details">
-                                                        <p>It was our first time enrolling our son in preschool so we were
-                                                            nervous at first but the teachers and the rest of the staff at
-                                                            SpringStone are so incredible that they soon made us feel
-                                                            comfortable.</p>
-                                                        <div class="client__info">
-                                                            <h6>James K P</h6>
-                                                            <span>Doctor</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                        <div class="client__details">
+                                            <p>It was our first time enrolling our son in preschool so we were nervous at first, but the teachers and the rest of the staff at SpringStone are so incredible that they soon made us feel comfortable.</p>
+                                            <div class="client__info">
+                                                <h6>James K P</h6>
+                                                <span>Doctor</span>
                                             </div>
-                                            <!-- End Single Testimonial -->
-                                        </div>
-                                    </div>
-                                    <div class="owl-item active" style="width: 570px;">
-                                        <div class="testimonial__bg">
-                                            <!-- Start Single Testimonial -->
-                                            <div class="testimonial text-center">
-                                                <div class="testimonial__inner">
-                                                    <div class="test__icon">
-                                                        <img src="https://www.cocoonpreschool.org/themes/public/assets/images/testimonial/icon/1.png"
-                                                            alt="icon images">
-                                                    </div>
-                                                    <div class="client__details">
-                                                        <p>It was our first time enrolling our son in preschool so we were
-                                                            nervous at first but the teachers and the rest of the staff at
-                                                            SpringStone are so incredible that they soon made us feel
-                                                            comfortable.</p>
-                                                        <div class="client__info">
-                                                            <h6>James K P</h6>
-                                                            <span>Doctor</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Testimonial -->
-                                        </div>
-                                    </div>
-                                    <div class="owl-item cloned" style="width: 570px;">
-                                        <div class="testimonial__bg">
-                                            <!-- Start Single Testimonial -->
-                                            <div class="testimonial text-center">
-                                                <div class="testimonial__inner">
-                                                    <div class="test__icon">
-                                                        <img src="https://www.cocoonpreschool.org/themes/public/assets/images/testimonial/icon/1.png"
-                                                            alt="icon images">
-                                                    </div>
-                                                    <div class="client__details">
-                                                        <p>It was our first time enrolling our son in preschool so we were
-                                                            nervous at first but the teachers and the rest of the staff at
-                                                            SpringStone are so incredible that they soon made us feel
-                                                            comfortable.</p>
-                                                        <div class="client__info">
-                                                            <h6>James K P</h6>
-                                                            <span>Doctor</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Testimonial -->
-                                        </div>
-                                    </div>
-                                    <div class="owl-item cloned" style="width: 570px;">
-                                        <div class="testimonial__bg">
-                                            <!-- Start Single Testimonial -->
-                                            <div class="testimonial text-center">
-                                                <div class="testimonial__inner">
-                                                    <div class="test__icon">
-                                                        <img src="https://www.cocoonpreschool.org/themes/public/assets/images/testimonial/icon/1.png"
-                                                            alt="icon images">
-                                                    </div>
-                                                    <div class="client__details">
-                                                        <p>It was our first time enrolling our son in preschool so we were
-                                                            nervous at first but the teachers and the rest of the staff at
-                                                            SpringStone are so incredible that they soon made us feel
-                                                            comfortable.</p>
-                                                        <div class="client__info">
-                                                            <h6>James K P</h6>
-                                                            <span>Doctor</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Testimonial -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-nav disabled">
-                                <div class="owl-prev">prev</div>
-                                <div class="owl-next">next</div>
+                        
+                            <!-- Duplicate this block to add more testimonials -->
+                            <div class="testimonial__bg">
+                                <div class="testimonial text-center">
+                                    <div class="testimonial__inner">
+                                        <div class="test__icon">
+                                            <img src="{{ asset('frontEnd/assets/images/testimonial/icon/1.png') }}" alt="icon images">
+                                        </div>
+                                        <div class="client__details">
+                                            <p>It was our first time enrolling our son in preschool so we were nervous at first, but the teachers and the rest of the staff at SpringStone are so incredible that they soon made us feel comfortable.</p>
+                                            <div class="client__info">
+                                                <h6>Sarah M</h6>
+                                                <span>Engineer</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="owl-dots disabled"></div>
+                        
                         </div>
+                        
                     </div>
                 </div>
             </div>

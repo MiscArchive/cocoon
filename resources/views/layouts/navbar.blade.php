@@ -38,7 +38,7 @@
             <!-- Mobile Menu -->
             <div class="mobile-menu d-block d-lg-none">
                 <div class="logo">
-                    <a href="#"><img src="{{ URL::to('themes/public/assets/images/logo/2.png') }}"
+                    <a href="#"><img src="{{ asset('frontEnd/assets/images/logo/2.png') }}"
                             alt="logo"></a>
                 </div>
 

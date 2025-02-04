@@ -54,7 +54,7 @@
         <div class="row jn__welcome__wrapper align-items-center mtop0">
             <div class="col-md-12 col-lg-6 col-sm-12">
                 <div class="jnr__Welcome__thumb"> <img
-                        src="https://www.cocoonpreschool.org/themes/public/assets/images/wel-come/2.jpg" alt="images">
+                        src="{{ asset('frontEnd/assets/images/wel-come/2.jpg') }}" alt="images">
                     <a class="play__btn" href="https://www.youtube.com/watch?v=MCJEkZtqlBk"><i
                             class="fa fa-play"></i></a> </div>
             </div>
