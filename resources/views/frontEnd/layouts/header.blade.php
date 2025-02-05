@@ -31,7 +31,7 @@
                   <div class="col-md-8 col-lg-6 col-sm-9 col-12">
                     <div class="jun__header__top__left">
                       <ul class="top__address d-flex justify-content-start align-items-center flex-wrap flex-lg-nowrap flex-md-nowrap">
-                        <li><span>E-mail Address : </span><a href="mailto:info@cocoonpreschool.org">info@cocoonpreschool.org</a></li>
+                        <li><span>E-mail Address : </span><a href="mailto:funatcocoon@gmail.com">funatcocoon@gmail.com</a></li>
 
                       </ul>
                     </div>

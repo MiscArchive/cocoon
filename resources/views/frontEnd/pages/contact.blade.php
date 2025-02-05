@@ -65,7 +65,7 @@
                         <div class="address__inner">
                             <h2>E-mail Address</h2>
                             <ul>
-                                <li><a href="mailto:info@cocoonpreschool.org">info@cocoonpreschool.org</a></li>
+                                <li><a href="mailto:funatcocoon@gmail.com">funatcocoon@gmail.com</a></li>
                             </ul>
                             <br>
                             <br>

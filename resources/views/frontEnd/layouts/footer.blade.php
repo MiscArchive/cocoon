@@ -72,7 +72,7 @@ Bhadra, Gandhinagar, puliyarakonam junction, <br>  Near Panchayat Rd <br> Vilapp
 
                                 </li>
                                 <li style="color:#fff;margin-top:10px;"><i class="fa fa-phone"></i>+91 81297 76611</li>
-                                <li style="color:#fff;margin-top:10px;"><i class="fa fa-envelope"></i> info@cocoonpreschool.org</li>
+                                <li style="color:#fff;margin-top:10px;"><i class="fa fa-envelope"></i> funatcocoon@gmail.com</li>
 
 
 
